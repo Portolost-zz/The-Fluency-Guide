@@ -139,11 +139,27 @@ let questions = [
         choice3: "c",
         choice4: "d",
         answer: 1,
+    },
+    {
+        question: "Pergunta 17",
+        choice1: "a",
+        choice2: "b",
+        choice3: "c",
+        choice4: "d",
+        answer: 1,
+    },
+    {
+        question: "Pergunta 18",
+        choice1: "a",
+        choice2: "b",
+        choice3: "c",
+        choice4: "d",
+        answer: 1,
     }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 16
+const MAX_QUESTIONS = 18
 
 startGame = () => {
     questionCounter = 0
@@ -156,7 +172,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('pagfinal.html')
     }
 
     questionCounter++
