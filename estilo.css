@@ -30,7 +30,7 @@ pratique {
 }
 
 #header{
-  background-image: url(quiz/imgs/bg-header.png);
+  background-image: url(quiz/imgs/bg-header.jpg);
     background-color: transparent!important;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -305,4 +305,6 @@ a:hover{
   margin: 4vw;
   padding: 3vh;
   border-radius: 10px;
+  font-family: Rubik;
+  line-height: 2;
 }
