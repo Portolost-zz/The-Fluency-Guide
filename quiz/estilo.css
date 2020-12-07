@@ -92,7 +92,6 @@ h2 {
     margin-left: 1rem;
 }
 
-/* End Page CSS */
 .end-form-container {
     width: 100%;
     display: flex;
@@ -157,4 +156,9 @@ td{
 }
 .habilidades{
     text-align: left;
+}
+.thefluency{
+    display: block;
+    width: 20vw;
+    margin: auto;
 }

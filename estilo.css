@@ -69,6 +69,7 @@ a:hover{
       text-align: center;
       font-size: 2vw;
       font-family: "Averegesans";
+      color: #ffffffdc;
   }
   .fundo {
     position: relative;
@@ -158,15 +159,22 @@ a:hover{
       color: black;
     }
     footer{
-        text-align: left;
-        background-color: rgba(0, 0, 0, 0.5);;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 5vw;
-        color: white;
-        font-family: "Rubik";
-        font-size: 1vw;
-        margin-top: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.5);;
+      padding-top: 1em;
+      color: white;
+      font-family: "Rubik";
+      font-size: 1vw;
+      margin-top: 10vh;
+    }
+    #footer{
+      text-align: left;
+      font-size: 2vh;
+      margin-left: 2vw;
     }
     a{
         text-decoration: none;
@@ -307,4 +315,33 @@ a:hover{
   border-radius: 10px;
   font-family: Rubik;
   line-height: 2;
+}
+#criadores{
+  display: grid;
+  grid-template-columns: auto 40vw;
+  grid-row: auto;
+  width: 50vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+#foto{
+  grid-row: 1;
+  grid-column: 1/2;
+  border-radius: 100%;
+  width: 13vw;
+  margin-bottom: 2vw;
+}
+#descricaogabriel{
+  margin-left: 5vw;
+  padding-top: 1vw;
+  font-size: 1vw;
+  font-family: "Averegesans";
+  grid-row: 1;
+  grid-column: 2/2;
+  border-radius: 100%;
+  text-align: left;
+  color: #ffffffbd;
+}
+.bibliografia{
+  margin-left: 1vw;
 }
